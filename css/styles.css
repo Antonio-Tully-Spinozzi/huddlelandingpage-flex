@@ -98,7 +98,7 @@ body {
   color: hsl(300, 69%, 71%);
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 750px) {
 
   body {
     background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
@@ -111,7 +111,7 @@ body {
   }
 
   .flex-container {
-    width: 88%;
+    width: 90%;
   }
 
   .one {
@@ -125,7 +125,6 @@ body {
 
   .mockup {
     width: 88%;
-
   }
 
   .three {
@@ -134,11 +133,11 @@ body {
   }
 
   .title {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
   }
 
   .blurb {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 50px;
   }
 
@@ -155,65 +154,4 @@ body {
   .fab {
     font-size: 1.5rem;
   }
-
-}
-
-@media (min-width: 750px) and (max-width: 999px) {
-
-  body {
-    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-  }
-
-  .logo {
-    width: 11rem;
-  }
-
-  .flex-container {
-    width: 92%;
-  }
-
-  .one {
-    flex-basis: 100%;
-  }
-
-  .two {
-    flex-basis: 55%;
-    text-align: left;
-  }
-
-  .mockup {
-    width: 88%;
-
-  }
-
-  .three {
-    flex-basis: 45%;
-    text-align: left;
-  }
-
-  .title {
-    font-size: 1.5rem;
-  }
-
-  .blurb {
-    font-size: 0.8rem;
-    padding-bottom: 50px;
-  }
-
-  .btn {
-    font-size: 1rem;
-    width: 4rem;
-  }
-
-  .four {
-    flex-basis: 100%;
-    text-align: right;
-  }
-
-  .fab {
-    font-size: 1.5rem;
-  }
-
 }
